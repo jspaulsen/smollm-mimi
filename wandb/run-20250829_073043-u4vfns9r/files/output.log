@@ -1,0 +1,44 @@
+  0%|▋                                                                                                                                          | 7/1551 [00:08<30:36,  1.19s/it]Traceback (most recent call last):
+{'loss': 3.4058, 'grad_norm': 3.84375, 'learning_rate': 0.0, 'epoch': 0.0}
+{'loss': 3.3718, 'grad_norm': 4.3125, 'learning_rate': 1.875e-06, 'epoch': 0.0}
+{'loss': 3.4496, 'grad_norm': 4.375, 'learning_rate': 3.75e-06, 'epoch': 0.0}
+{'loss': 3.3264, 'grad_norm': 3.9375, 'learning_rate': 5.625e-06, 'epoch': 0.0}
+{'loss': 3.4809, 'grad_norm': 4.15625, 'learning_rate': 7.5e-06, 'epoch': 0.0}
+{'loss': 3.2694, 'grad_norm': 3.640625, 'learning_rate': 9.375000000000001e-06, 'epoch': 0.0}
+{'loss': 3.266, 'grad_norm': 3.765625, 'learning_rate': 1.125e-05, 'epoch': 0.0}
+  File "/home/jpaulsen/repos/mimi-smollm/train_qa.py", line 176, in <module>
+    main()
+  File "/home/jpaulsen/repos/mimi-smollm/train_qa.py", line 171, in main
+    trainer.train()
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/transformers/trainer.py", line 2238, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/transformers/trainer.py", line 2582, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/transformers/trainer.py", line 3845, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/accelerate/accelerator.py", line 2734, in backward
+    loss.backward(**kwargs)
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/torch/_tensor.py", line 648, in backward
+    torch.autograd.backward(
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/torch/autograd/__init__.py", line 353, in backward
+    _engine_run_backward(
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/torch/autograd/graph.py", line 824, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x7cc37e527c40>
+Traceback (most recent call last):
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_connection.py", line 54, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_connection.py", line 182, in teardown
+    self._router.join()
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/wandb/sdk/interface/router.py", line 75, in join
+    self._thread.join()
+  File "/usr/lib/python3.12/threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.12/threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:

@@ -1,0 +1,85 @@
+                                                                                                                                                                                 
+{'loss': 3.3547, 'grad_norm': 9.625, 'learning_rate': 0.0, 'epoch': 0.0}
+{'loss': 3.5274, 'grad_norm': 9.5625, 'learning_rate': 1.875e-06, 'epoch': 0.0}
+{'loss': 3.4561, 'grad_norm': 10.9375, 'learning_rate': 3.75e-06, 'epoch': 0.0}
+{'loss': 3.4506, 'grad_norm': 9.4375, 'learning_rate': 5.625e-06, 'epoch': 0.0}
+{'loss': 3.2518, 'grad_norm': 8.5, 'learning_rate': 7.5e-06, 'epoch': 0.0}
+{'loss': 3.4256, 'grad_norm': 9.5625, 'learning_rate': 9.375000000000001e-06, 'epoch': 0.0}
+{'loss': 3.4647, 'grad_norm': 9.3125, 'learning_rate': 1.125e-05, 'epoch': 0.0}
+{'loss': 3.4252, 'grad_norm': 9.875, 'learning_rate': 1.3125e-05, 'epoch': 0.01}
+{'loss': 3.3487, 'grad_norm': 8.75, 'learning_rate': 1.5e-05, 'epoch': 0.01}
+{'loss': 3.4376, 'grad_norm': 10.0625, 'learning_rate': 1.6875e-05, 'epoch': 0.01}
+{'loss': 3.5138, 'grad_norm': 7.90625, 'learning_rate': 1.8750000000000002e-05, 'epoch': 0.01}
+{'loss': 3.2861, 'grad_norm': 6.875, 'learning_rate': 2.0625e-05, 'epoch': 0.01}
+{'loss': 3.4233, 'grad_norm': 8.9375, 'learning_rate': 2.25e-05, 'epoch': 0.01}
+{'loss': 3.4659, 'grad_norm': 8.125, 'learning_rate': 2.4375e-05, 'epoch': 0.01}
+{'loss': 3.3654, 'grad_norm': 6.1875, 'learning_rate': 2.625e-05, 'epoch': 0.01}
+{'loss': 3.5052, 'grad_norm': 6.375, 'learning_rate': 2.8125e-05, 'epoch': 0.01}
+{'loss': 3.4954, 'grad_norm': 4.90625, 'learning_rate': 3e-05, 'epoch': 0.01}
+{'loss': 3.2705, 'grad_norm': 5.25, 'learning_rate': 2.9999968584491223e-05, 'epoch': 0.01}
+{'loss': 3.4087, 'grad_norm': 4.65625, 'learning_rate': 2.999987433809648e-05, 'epoch': 0.01}
+{'loss': 3.4684, 'grad_norm': 4.28125, 'learning_rate': 2.9999717261210548e-05, 'epoch': 0.01}
+{'loss': 3.3355, 'grad_norm': 5.03125, 'learning_rate': 2.9999497354491377e-05, 'epoch': 0.01}
+{'loss': 3.4426, 'grad_norm': 4.0, 'learning_rate': 2.9999214618860097e-05, 'epoch': 0.01}
+{'loss': 3.3911, 'grad_norm': 4.5625, 'learning_rate': 2.9998869055501018e-05, 'epoch': 0.01}
+{'loss': 3.428, 'grad_norm': 4.5, 'learning_rate': 2.9998460665861607e-05, 'epoch': 0.02}
+{'loss': 3.3028, 'grad_norm': 3.875, 'learning_rate': 2.9997989451652506e-05, 'epoch': 0.02}
+  File "/home/jpaulsen/repos/mimi-smollm/train_qa.py", line 166, in <module>                                                                                                     
+{'eval_loss': 3.3814010620117188, 'eval_runtime': 5.3362, 'eval_samples_per_second': 187.963, 'eval_steps_per_second': 23.612, 'epoch': 0.02}
+{'loss': 3.2281, 'grad_norm': 3.703125, 'learning_rate': 2.9997455414847497e-05, 'epoch': 0.02}
+{'loss': 3.396, 'grad_norm': 3.4375, 'learning_rate': 2.9996858557683527e-05, 'epoch': 0.02}
+{'loss': 3.3704, 'grad_norm': 4.375, 'learning_rate': 2.9996198882660668e-05, 'epoch': 0.02}
+{'loss': 3.3399, 'grad_norm': 3.78125, 'learning_rate': 2.999547639254213e-05, 'epoch': 0.02}
+{'loss': 3.3632, 'grad_norm': 4.625, 'learning_rate': 2.9994691090354222e-05, 'epoch': 0.02}
+{'loss': 3.2981, 'grad_norm': 4.34375, 'learning_rate': 2.999384297938637e-05, 'epoch': 0.02}
+{'loss': 3.3687, 'grad_norm': 4.375, 'learning_rate': 2.999293206319109e-05, 'epoch': 0.02}
+{'loss': 3.2858, 'grad_norm': 4.09375, 'learning_rate': 2.9991958345583966e-05, 'epoch': 0.02}
+{'loss': 3.3851, 'grad_norm': 3.765625, 'learning_rate': 2.999092183064364e-05, 'epoch': 0.02}
+{'loss': 3.3499, 'grad_norm': 3.796875, 'learning_rate': 2.9989822522711803e-05, 'epoch': 0.02}
+{'loss': 3.4376, 'grad_norm': 4.0625, 'learning_rate': 2.9988660426393154e-05, 'epoch': 0.02}
+{'loss': 3.4264, 'grad_norm': 3.8125, 'learning_rate': 2.998743554655542e-05, 'epoch': 0.02}
+{'loss': 3.2055, 'grad_norm': 3.5625, 'learning_rate': 2.9986147888329286e-05, 'epoch': 0.02}
+{'loss': 3.3176, 'grad_norm': 3.203125, 'learning_rate': 2.9984797457108418e-05, 'epoch': 0.03}
+{'loss': 3.3534, 'grad_norm': 2.640625, 'learning_rate': 2.9983384258549405e-05, 'epoch': 0.03}
+{'loss': 3.3553, 'grad_norm': 2.1875, 'learning_rate': 2.998190829857177e-05, 'epoch': 0.03}
+{'loss': 3.3667, 'grad_norm': 2.34375, 'learning_rate': 2.998036958335791e-05, 'epoch': 0.03}
+{'loss': 3.2405, 'grad_norm': 2.21875, 'learning_rate': 2.99787681193531e-05, 'epoch': 0.03}
+{'loss': 3.2832, 'grad_norm': 1.859375, 'learning_rate': 2.9977103913265445e-05, 'epoch': 0.03}
+{'loss': 3.2896, 'grad_norm': 2.3125, 'learning_rate': 2.9975376972065868e-05, 'epoch': 0.03}
+{'loss': 3.2999, 'grad_norm': 3.125, 'learning_rate': 2.9973587302988054e-05, 'epoch': 0.03}
+{'loss': 3.1137, 'grad_norm': 2.8125, 'learning_rate': 2.9971734913528465e-05, 'epoch': 0.03}
+    main()
+  File "/home/jpaulsen/repos/mimi-smollm/train_qa.py", line 161, in main
+    trainer.train()
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/transformers/trainer.py", line 2238, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/transformers/trainer.py", line 2582, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/transformers/trainer.py", line 3845, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/accelerate/accelerator.py", line 2734, in backward
+    loss.backward(**kwargs)
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/torch/_tensor.py", line 648, in backward
+    torch.autograd.backward(
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/torch/autograd/__init__.py", line 353, in backward
+    _engine_run_backward(
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/torch/autograd/graph.py", line 824, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x7cbceea2fc40>
+Traceback (most recent call last):
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_connection.py", line 54, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_connection.py", line 182, in teardown
+    self._router.join()
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/wandb/sdk/interface/router.py", line 75, in join
+    self._thread.join()
+  File "/usr/lib/python3.12/threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.12/threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:

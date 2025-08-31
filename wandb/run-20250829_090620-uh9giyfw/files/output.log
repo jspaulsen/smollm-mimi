@@ -1,0 +1,50 @@
+  0%|                                                                                                                                                                                                                                                                                                                             | 2/30060 [00:12<49:35:34,  5.94s/it]Traceback (most recent call last):
+{'loss': 18.1899, 'grad_norm': 169.0, 'learning_rate': 0.0, 'epoch': 0.0}
+{'loss': 18.1166, 'grad_norm': 167.0, 'learning_rate': 1.986754966887417e-06, 'epoch': 0.0}
+  File "/home/jpaulsen/repos/mimi-smollm/train_emilia.py", line 203, in <module>
+    main()
+  File "/home/jpaulsen/repos/mimi-smollm/train_emilia.py", line 198, in main
+    trainer.train()
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/transformers/trainer.py", line 2238, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/transformers/trainer.py", line 2582, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/transformers/trainer.py", line 3796, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/transformers/trainer.py", line 3884, in compute_loss
+    outputs = model(**inputs)
+              ^^^^^^^^^^^^^^^
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/accelerate/utils/operations.py", line 818, in forward
+    return model_forward(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/accelerate/utils/operations.py", line 806, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/torch/amp/autocast_mode.py", line 44, in decorate_autocast
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/transformers/utils/generic.py", line 959, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/transformers/models/llama/modeling_llama.py", line 478, in forward
+    loss = self.loss_function(logits=logits, labels=labels, vocab_size=self.config.vocab_size, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/transformers/loss/loss_utils.py", line 67, in ForCausalLMLoss
+    loss = fixed_cross_entropy(logits, shift_labels, num_items_in_batch, ignore_index, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/transformers/loss/loss_utils.py", line 36, in fixed_cross_entropy
+    loss = nn.functional.cross_entropy(source, target, ignore_index=ignore_index, reduction=reduction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/torch/nn/functional.py", line 3494, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 6.70 GiB. GPU 0 has a total capacity of 23.57 GiB of which 5.82 GiB is free. Including non-PyTorch memory, this process has 17.21 GiB memory in use. Of the allocated memory 11.61 GiB is allocated by PyTorch, and 5.28 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

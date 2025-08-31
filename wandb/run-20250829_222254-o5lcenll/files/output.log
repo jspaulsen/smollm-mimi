@@ -1,0 +1,110 @@
+                                                                                                                                                                          
+{'loss': 17.9694, 'grad_norm': 174.0, 'learning_rate': 0.0, 'epoch': 0.0}
+{'loss': 18.2114, 'grad_norm': 165.0, 'learning_rate': 9.823182711198428e-08, 'epoch': 0.0}
+{'loss': 18.2298, 'grad_norm': 172.0, 'learning_rate': 1.9646365422396855e-07, 'epoch': 0.0}
+{'loss': 18.2338, 'grad_norm': 168.0, 'learning_rate': 2.946954813359528e-07, 'epoch': 0.0}
+{'loss': 18.1627, 'grad_norm': 170.0, 'learning_rate': 3.929273084479371e-07, 'epoch': 0.0}
+{'loss': 18.2164, 'grad_norm': 174.0, 'learning_rate': 4.911591355599213e-07, 'epoch': 0.0}
+{'loss': 18.1368, 'grad_norm': 171.0, 'learning_rate': 5.893909626719056e-07, 'epoch': 0.0}
+{'loss': 18.1788, 'grad_norm': 177.0, 'learning_rate': 6.8762278978389e-07, 'epoch': 0.0}
+{'loss': 18.14, 'grad_norm': 177.0, 'learning_rate': 7.858546168958742e-07, 'epoch': 0.0}
+{'loss': 18.1628, 'grad_norm': 176.0, 'learning_rate': 8.840864440078584e-07, 'epoch': 0.0}
+{'loss': 18.0884, 'grad_norm': 170.0, 'learning_rate': 9.823182711198427e-07, 'epoch': 0.0}
+{'loss': 18.2225, 'grad_norm': 171.0, 'learning_rate': 1.0805500982318269e-06, 'epoch': 0.0}
+{'loss': 18.1161, 'grad_norm': 166.0, 'learning_rate': 1.1787819253438111e-06, 'epoch': 0.0}
+{'loss': 18.2666, 'grad_norm': 176.0, 'learning_rate': 1.2770137524557956e-06, 'epoch': 0.0}
+{'loss': 18.2745, 'grad_norm': 173.0, 'learning_rate': 1.37524557956778e-06, 'epoch': 0.0}
+{'loss': 18.2334, 'grad_norm': 171.0, 'learning_rate': 1.473477406679764e-06, 'epoch': 0.0}
+{'loss': 18.1509, 'grad_norm': 155.0, 'learning_rate': 1.5717092337917484e-06, 'epoch': 0.0}
+{'loss': 18.1708, 'grad_norm': 174.0, 'learning_rate': 1.6699410609037327e-06, 'epoch': 0.0}
+{'loss': 18.0926, 'grad_norm': 152.0, 'learning_rate': 1.7681728880157169e-06, 'epoch': 0.0}
+{'loss': 18.2624, 'grad_norm': 170.0, 'learning_rate': 1.8664047151277013e-06, 'epoch': 0.0}
+{'loss': 18.1035, 'grad_norm': 172.0, 'learning_rate': 1.9646365422396853e-06, 'epoch': 0.0}
+{'loss': 18.1464, 'grad_norm': 173.0, 'learning_rate': 2.06286836935167e-06, 'epoch': 0.0}
+{'loss': 18.1234, 'grad_norm': 172.0, 'learning_rate': 2.1611001964636538e-06, 'epoch': 0.0}
+{'loss': 18.0788, 'grad_norm': 171.0, 'learning_rate': 2.2593320235756384e-06, 'epoch': 0.0}
+{'loss': 17.9663, 'grad_norm': 169.0, 'learning_rate': 2.3575638506876222e-06, 'epoch': 0.0}
+{'loss': 18.1982, 'grad_norm': 170.0, 'learning_rate': 2.455795677799607e-06, 'epoch': 0.0}
+{'loss': 18.0767, 'grad_norm': 164.0, 'learning_rate': 2.554027504911591e-06, 'epoch': 0.0}
+{'loss': 18.0938, 'grad_norm': 173.0, 'learning_rate': 2.6522593320235753e-06, 'epoch': 0.0}
+{'loss': 18.0687, 'grad_norm': 169.0, 'learning_rate': 2.75049115913556e-06, 'epoch': 0.0}
+{'loss': 18.1242, 'grad_norm': 164.0, 'learning_rate': 2.848722986247544e-06, 'epoch': 0.0}
+{'loss': 18.1847, 'grad_norm': 169.0, 'learning_rate': 2.946954813359528e-06, 'epoch': 0.0}
+{'loss': 18.2153, 'grad_norm': 175.0, 'learning_rate': 3.0451866404715122e-06, 'epoch': 0.0}
+{'loss': 18.0526, 'grad_norm': 164.0, 'learning_rate': 3.143418467583497e-06, 'epoch': 0.0}
+{'loss': 18.1284, 'grad_norm': 174.0, 'learning_rate': 3.241650294695481e-06, 'epoch': 0.0}
+{'loss': 18.0958, 'grad_norm': 171.0, 'learning_rate': 3.3398821218074653e-06, 'epoch': 0.0}
+{'loss': 18.1491, 'grad_norm': 165.0, 'learning_rate': 3.43811394891945e-06, 'epoch': 0.0}
+{'loss': 18.0909, 'grad_norm': 178.0, 'learning_rate': 3.5363457760314338e-06, 'epoch': 0.0}
+{'loss': 18.1674, 'grad_norm': 178.0, 'learning_rate': 3.634577603143418e-06, 'epoch': 0.0}
+{'loss': 18.0129, 'grad_norm': 171.0, 'learning_rate': 3.7328094302554026e-06, 'epoch': 0.0}
+{'loss': 18.178, 'grad_norm': 175.0, 'learning_rate': 3.8310412573673864e-06, 'epoch': 0.0}
+{'loss': 18.0092, 'grad_norm': 167.0, 'learning_rate': 3.929273084479371e-06, 'epoch': 0.0}
+{'loss': 18.0604, 'grad_norm': 163.0, 'learning_rate': 4.027504911591356e-06, 'epoch': 0.0}
+{'loss': 18.1195, 'grad_norm': 162.0, 'learning_rate': 4.12573673870334e-06, 'epoch': 0.0}
+{'loss': 18.1013, 'grad_norm': 169.0, 'learning_rate': 4.223968565815323e-06, 'epoch': 0.0}
+{'loss': 17.9621, 'grad_norm': 158.0, 'learning_rate': 4.3222003929273076e-06, 'epoch': 0.0}
+{'loss': 18.0307, 'grad_norm': 168.0, 'learning_rate': 4.420432220039293e-06, 'epoch': 0.0}
+{'loss': 17.9714, 'grad_norm': 162.0, 'learning_rate': 4.518664047151277e-06, 'epoch': 0.0}
+{'loss': 17.9394, 'grad_norm': 162.0, 'learning_rate': 4.616895874263261e-06, 'epoch': 0.0}
+{'loss': 17.872, 'grad_norm': 163.0, 'learning_rate': 4.7151277013752445e-06, 'epoch': 0.0}
+{'loss': 17.9365, 'grad_norm': 158.0, 'learning_rate': 4.813359528487229e-06, 'epoch': 0.0}
+{'loss': 17.9158, 'grad_norm': 171.0, 'learning_rate': 4.911591355599214e-06, 'epoch': 0.0}
+{'loss': 17.8289, 'grad_norm': 159.0, 'learning_rate': 5.009823182711198e-06, 'epoch': 0.0}
+{'loss': 17.786, 'grad_norm': 162.0, 'learning_rate': 5.108055009823182e-06, 'epoch': 0.0}
+{'loss': 17.7524, 'grad_norm': 166.0, 'learning_rate': 5.2062868369351664e-06, 'epoch': 0.0}
+{'loss': 17.8438, 'grad_norm': 168.0, 'learning_rate': 5.304518664047151e-06, 'epoch': 0.0}
+{'loss': 17.8429, 'grad_norm': 164.0, 'learning_rate': 5.402750491159135e-06, 'epoch': 0.0}
+{'loss': 17.7947, 'grad_norm': 160.0, 'learning_rate': 5.50098231827112e-06, 'epoch': 0.0}
+{'loss': 17.8418, 'grad_norm': 158.0, 'learning_rate': 5.599214145383104e-06, 'epoch': 0.0}
+{'loss': 17.6712, 'grad_norm': 151.0, 'learning_rate': 5.697445972495088e-06, 'epoch': 0.0}
+{'loss': 17.75, 'grad_norm': 159.0, 'learning_rate': 5.795677799607072e-06, 'epoch': 0.0}
+{'loss': 17.7579, 'grad_norm': 152.0, 'learning_rate': 5.893909626719056e-06, 'epoch': 0.0}
+{'loss': 17.7922, 'grad_norm': 159.0, 'learning_rate': 5.99214145383104e-06, 'epoch': 0.0}
+{'loss': 17.7253, 'grad_norm': 162.0, 'learning_rate': 6.0903732809430245e-06, 'epoch': 0.0}
+{'loss': 17.6421, 'grad_norm': 157.0, 'learning_rate': 6.1886051080550095e-06, 'epoch': 0.0}
+{'loss': 17.8058, 'grad_norm': 159.0, 'learning_rate': 6.286836935166994e-06, 'epoch': 0.0}
+{'loss': 17.6308, 'grad_norm': 158.0, 'learning_rate': 6.385068762278978e-06, 'epoch': 0.0}
+{'loss': 17.6009, 'grad_norm': 157.0, 'learning_rate': 6.483300589390962e-06, 'epoch': 0.0}
+{'loss': 17.5806, 'grad_norm': 148.0, 'learning_rate': 6.581532416502946e-06, 'epoch': 0.0}
+{'loss': 17.6684, 'grad_norm': 156.0, 'learning_rate': 6.679764243614931e-06, 'epoch': 0.0}
+{'loss': 17.6289, 'grad_norm': 146.0, 'learning_rate': 6.777996070726916e-06, 'epoch': 0.0}
+{'loss': 17.4912, 'grad_norm': 148.0, 'learning_rate': 6.8762278978389e-06, 'epoch': 0.0}
+{'loss': 17.4891, 'grad_norm': 150.0, 'learning_rate': 6.974459724950883e-06, 'epoch': 0.0}
+{'loss': 17.5445, 'grad_norm': 156.0, 'learning_rate': 7.0726915520628675e-06, 'epoch': 0.0}
+  File "/home/jpaulsen/repos/mimi-smollm/train_emilia.py", line 204, in <module>
+    main()
+  File "/home/jpaulsen/repos/mimi-smollm/train_emilia.py", line 199, in main
+    trainer.train()
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/transformers/trainer.py", line 2238, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/transformers/trainer.py", line 2582, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/transformers/trainer.py", line 3845, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/accelerate/accelerator.py", line 2734, in backward
+    loss.backward(**kwargs)
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/torch/_tensor.py", line 648, in backward
+    torch.autograd.backward(
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/torch/autograd/__init__.py", line 353, in backward
+    _engine_run_backward(
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/torch/autograd/graph.py", line 824, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x7422e028de40>
+Traceback (most recent call last):
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_connection.py", line 54, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_connection.py", line 182, in teardown
+    self._router.join()
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/wandb/sdk/interface/router.py", line 75, in join
+    self._thread.join()
+  File "/usr/lib/python3.12/threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.12/threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:

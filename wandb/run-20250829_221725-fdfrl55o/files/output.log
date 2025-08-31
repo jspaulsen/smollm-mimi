@@ -1,0 +1,43 @@
+  0%|                                                                                                                               | 20/61998 [00:57<48:44:05,  2.83s/it]Traceback (most recent call last):
+{'loss': 18.2371, 'grad_norm': 168.0, 'learning_rate': 0.0, 'epoch': 0.0}
+{'loss': 18.1547, 'grad_norm': 179.0, 'learning_rate': 9.677419354838709e-08, 'epoch': 0.0}
+{'loss': 18.1525, 'grad_norm': 174.0, 'learning_rate': 1.9354838709677418e-07, 'epoch': 0.0}
+{'loss': 18.1155, 'grad_norm': 183.0, 'learning_rate': 2.903225806451613e-07, 'epoch': 0.0}
+{'loss': 18.2069, 'grad_norm': 171.0, 'learning_rate': 3.8709677419354837e-07, 'epoch': 0.0}
+{'loss': 18.1657, 'grad_norm': 172.0, 'learning_rate': 4.838709677419354e-07, 'epoch': 0.0}
+{'loss': 18.1017, 'grad_norm': 167.0, 'learning_rate': 5.806451612903226e-07, 'epoch': 0.0}
+{'loss': 18.1333, 'grad_norm': 167.0, 'learning_rate': 6.774193548387097e-07, 'epoch': 0.0}
+{'loss': 18.1412, 'grad_norm': 199.0, 'learning_rate': 7.741935483870967e-07, 'epoch': 0.0}
+{'loss': 18.1397, 'grad_norm': 172.0, 'learning_rate': 8.709677419354838e-07, 'epoch': 0.0}
+{'loss': 18.2193, 'grad_norm': 173.0, 'learning_rate': 9.677419354838708e-07, 'epoch': 0.0}
+{'loss': 18.3116, 'grad_norm': 163.0, 'learning_rate': 1.064516129032258e-06, 'epoch': 0.0}
+{'loss': 18.0283, 'grad_norm': 165.0, 'learning_rate': 1.1612903225806452e-06, 'epoch': 0.0}
+{'loss': 18.1056, 'grad_norm': 177.0, 'learning_rate': 1.258064516129032e-06, 'epoch': 0.0}
+{'loss': 18.2513, 'grad_norm': 172.0, 'learning_rate': 1.3548387096774193e-06, 'epoch': 0.0}
+{'loss': 18.21, 'grad_norm': 182.0, 'learning_rate': 1.4516129032258064e-06, 'epoch': 0.0}
+{'loss': 18.2094, 'grad_norm': 176.0, 'learning_rate': 1.5483870967741935e-06, 'epoch': 0.0}
+{'loss': 18.1404, 'grad_norm': 154.0, 'learning_rate': 1.6451612903225803e-06, 'epoch': 0.0}
+{'loss': 18.1878, 'grad_norm': 168.0, 'learning_rate': 1.7419354838709676e-06, 'epoch': 0.0}
+{'loss': 18.1179, 'grad_norm': 164.0, 'learning_rate': 1.8387096774193547e-06, 'epoch': 0.0}
+  File "/home/jpaulsen/repos/mimi-smollm/train_emilia.py", line 204, in <module>
+    main()
+  File "/home/jpaulsen/repos/mimi-smollm/train_emilia.py", line 199, in main
+    trainer.train()
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/transformers/trainer.py", line 2238, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/transformers/trainer.py", line 2582, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/transformers/trainer.py", line 3845, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/accelerate/accelerator.py", line 2734, in backward
+    loss.backward(**kwargs)
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/torch/_tensor.py", line 648, in backward
+    torch.autograd.backward(
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/torch/autograd/__init__.py", line 353, in backward
+    _engine_run_backward(
+  File "/home/jpaulsen/repos/mimi-smollm/.venv/lib/python3.12/site-packages/torch/autograd/graph.py", line 824, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 4.91 GiB. GPU 0 has a total capacity of 23.57 GiB of which 3.78 GiB is free. Including non-PyTorch memory, this process has 19.24 GiB memory in use. Of the allocated memory 11.13 GiB is allocated by PyTorch, and 7.80 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
