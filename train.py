@@ -1,7 +1,4 @@
-import os
 from pathlib import Path
-
-# os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 import torch
 
@@ -23,7 +20,7 @@ def main(
     output_directory: Path = Path("runs-v4"),
 ) -> None:
     batch_size: int = 32
-    gradient_accumulation_steps: int = 1
+    gradient_accumulation_steps: int = 2
     epochs: int = 1
     learning_rate: float = 2e-4
 
@@ -47,7 +44,7 @@ def main(
         num_proc=16,
     )
 
-    split = dataset.train_test_split(test_size=0.00001)
+    split = dataset.train_test_split(test_size=0.00001, seed=3407)
 
     dataset = split["train"]
     eval_dataset = split["test"]

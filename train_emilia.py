@@ -128,7 +128,7 @@ def main(
     # Filter out anything with a length > 2048 tokens
     dataset = dataset.filter(lambda x: x['length'] <= 2048, num_proc=8)
 
-    split = dataset.train_test_split(test_size=0.00001)
+    split = dataset.train_test_split(test_size=0.00001, seed=3407)
 
     dataset = split["train"]
     eval_dataset = split["test"]
