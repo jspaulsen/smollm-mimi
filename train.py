@@ -20,9 +20,9 @@ def main(
     output_directory: Path = Path("runs-v4"),
 ) -> None:
     batch_size: int = 32
-    gradient_accumulation_steps: int = 2
+    gradient_accumulation_steps: int = 1
     epochs: int = 1
-    learning_rate: float = 2e-4
+    learning_rate: float = 3e-4
 
     model_path: Path = Path("model")  # base model
 
@@ -41,7 +41,7 @@ def main(
     # Filter out anything with a length > 2048 tokens
     dataset = dataset.filter(
         lambda x: len(x['input_ids']) <= 2048,
-        num_proc=16,
+        num_proc=32,
     )
 
     split = dataset.train_test_split(test_size=0.00001, seed=3407)
